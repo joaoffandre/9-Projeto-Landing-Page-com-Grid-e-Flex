@@ -12,6 +12,11 @@ html{
     align-items: center;
 }
 
+.nome-agencia:hover{
+    color:#FF7F50;
+    transition:color .3s ease-in-out;
+}
+
 
 .nome-agencia h2{
     font-size: 2.5rem;
@@ -28,6 +33,13 @@ html{
     font-weight: 700;
     padding:1rem 3rem;
     margin-left:1rem;
+    border-radius:30px;
+}
+
+.menu li .secao:hover{
+    background-color: #FF7F50;
+    color:white;
+    transition: .3s ease-in-out;
 }
 
 
