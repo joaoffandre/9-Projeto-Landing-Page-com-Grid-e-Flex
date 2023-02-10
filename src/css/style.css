@@ -74,5 +74,29 @@ html{
     text-transform: uppercase;
 }
 
+.sobre{
+    display:grid;
+    grid-template-rows:repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:
+    "descricao1 imagem1"
+    "imagem2 descricao2";
+}
+
+.descricao1{
+    grid-area:descricao1;
+}
+
+.imagem1{
+    grid-area:imagem1;
+}
+
+.descricao2{
+    grid-area:descricao2;
+}
+
+.imagem2{
+    grid-area:imagem2;
+}
 
 
