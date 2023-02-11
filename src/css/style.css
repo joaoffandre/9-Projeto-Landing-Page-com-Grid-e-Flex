@@ -124,3 +124,45 @@ html{
 .sobre .imagem2{
     background: url(../images/sky.jpg) center no-repeat;
 }
+
+.servicos{
+    display:grid;
+    grid-template-areas:
+    "seo landing-pages";
+}
+
+.servicos .seo{
+    grid-area:seo;
+    background-color: #8A2BE2;
+}
+
+.servicos .landing-pages{
+    grid-area:landing-pages;
+    background-color: #FFB6C1;
+}
+
+.servicos .seo, .servicos .landing-pages{
+    padding: 7rem 2rem;
+}
+
+.servicos .servicos-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:2.8rem;
+}
+
+.servicos .imagem-servicos{
+    max-width: 100%;
+}
+
+.servicos .titulo-servicos{
+    font-size: 2.2rem;
+}
+
+.servicos .texto-servicos{
+    font-size: 2rem;
+    max-width: 40rem;
+}
