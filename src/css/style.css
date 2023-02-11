@@ -159,7 +159,7 @@ html{
 }
 
 .servicos .titulo-servicos{
-    font-size: 2.2rem;
+    font-size: 2.1rem;
 }
 
 .servicos .texto-servicos{
@@ -218,4 +218,37 @@ html{
 .projetos a:hover::before{
     opacity:0.2;
     transition: opacity 0.3s ease-in-out;
+}
+
+.rodape{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:5rem;
+    background-color: #90EE90;
+    padding:8rem 0;
+}
+
+.rodape .titulo-rodape{
+    font-size: 2.5rem;
+    margin-block:1.5rem;
+}
+
+.rodape .secoes{
+    display: flex;
+    gap:4rem;
+    font-size:1.6rem;
+    font-weight: 500;
+}
+
+.rodape .redes-sociais{
+    display: flex;
+    font-size: 2rem;
+    gap:4.5rem;
+}
+
+.rodape .secoes a:hover, .rodape .redes-sociais a:hover{
+    color:white;
+    transition: color 0.3s ease-in-out;
 }
