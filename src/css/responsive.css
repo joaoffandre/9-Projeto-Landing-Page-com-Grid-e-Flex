@@ -1,0 +1,22 @@
+@media(max-width:769px){
+    .projetos{
+        display: grid;
+        grid-template-columns: repeat(2,50vw);
+        grid-template-rows: repeat(2,50vw);
+        grid-template-areas:
+        "projeto1 projeto2"
+        "projeto3 projeto4";
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        max-width:480px;
+    }
+
+    .menu li .secao{
+        width:138px;
+        display: inline-block;
+        text-align: center;
+    }
+}

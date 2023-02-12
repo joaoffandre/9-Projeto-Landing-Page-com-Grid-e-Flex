@@ -169,7 +169,7 @@ html{
 
 .projetos{
     display: grid;
-    grid-template-columns: 25vw;
+    grid-template-columns: repeat(4,25vw);
     grid-template-rows: 25vw;
     grid-template-areas:
     "projeto1 projeto2 projeto3 projeto4";
