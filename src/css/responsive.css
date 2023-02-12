@@ -1,3 +1,25 @@
+@media(max-width:900px){
+    .label-hamburguer .menu-hamburguer{
+        display: flex;
+    }
+
+    nav .menu{
+        display: none;
+    }
+
+    .header input:checked ~.label-hamburguer .hamburguer{
+        transform:rotate(-45deg);
+    }
+
+    .header input:checked ~ .label-hamburguer .menu-hamburguer::before{
+        transform:rotate(45deg) translate(10px,10px); 
+    }
+
+    .header input:checked ~ .label-hamburguer .menu-hamburguer::after{
+        transform:rotate(45deg) translate(-8.5px,-8.5px);
+    }
+}
+
 @media(max-width:768px){
     .projetos{
         grid-template-columns: repeat(2,50vw);
