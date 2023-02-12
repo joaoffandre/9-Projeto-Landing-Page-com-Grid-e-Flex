@@ -1,6 +1,5 @@
-@media(max-width:769px){
+@media(max-width:768px){
     .projetos{
-        display: grid;
         grid-template-columns: repeat(2,50vw);
         grid-template-rows: repeat(2,50vw);
         grid-template-areas:
@@ -18,5 +17,44 @@
         width:138px;
         display: inline-block;
         text-align: center;
+    }
+}
+
+@media(max-width:491px){
+    .painel .chamada-lemons{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .painel{
+        height: 60vh;
+    }
+
+    .sobre{
+        grid-template-rows:repeat(4,1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "descricao1"
+        "imagem1"
+        "imagem2"
+        "descricao2";
+    }
+
+    .servicos{
+        grid-template-rows:repeat(2,1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "seo"
+        "landing-pages";
+    }
+
+    .projetos{
+        grid-template-rows:repeat(4,100vw);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "projeto1"
+        "projeto2"
+        "projeto3"
+        "projeto4";
     }
 }
