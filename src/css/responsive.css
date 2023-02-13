@@ -18,6 +18,26 @@
     .header input:checked ~ .label-hamburguer .menu-hamburguer::after{
         transform:rotate(45deg) translate(-8.5px,-8.5px);
     }
+
+    nav{
+        position: relative;
+    }
+
+    .header input:checked ~ ul.menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        background-color: white;
+        z-index: 1;
+        top:60px;
+        left:-80px;
+        padding-block:1rem;
+    }
+
+    .menu li{
+        padding:1rem 1rem;
+    }
 }
 
 @media(max-width:768px){
@@ -27,18 +47,6 @@
         grid-template-areas:
         "projeto1 projeto2"
         "projeto3 projeto4";
-    }
-
-    .menu{
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        max-width:480px;
-    }
-
-    .menu li .secao{
-        width:138px;
-        display: inline-block;
-        text-align: center;
     }
 }
 
@@ -62,6 +70,11 @@
         "descricao2";
     }
 
+    .sobre .descricao{
+        align-items: center;
+        text-align: center;
+    }
+    
     .servicos{
         grid-template-rows:repeat(2,1fr);
         grid-template-columns: 1fr;

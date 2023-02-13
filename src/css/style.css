@@ -32,7 +32,6 @@ html{
     font-size: 2rem;
     font-weight: 700;
     padding:1rem 3rem;
-    margin-left:1rem;
     border-radius:30px;
     transition: .3s ease-in-out;
 }
@@ -48,15 +47,16 @@ html{
 
 .menu-hamburguer{
     display: none;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     width: 40px;
     height: 40px;
-    flex-direction: column;
 }
 
 .hamburguer{
     background-color: black;
-    width: 100%;
+    width: 80%;
     height: 2px;
     transition: transform 0.3s ease-in-out;
 }
@@ -64,7 +64,7 @@ html{
 .menu-hamburguer::before, .menu-hamburguer::after{
     content:"";
     background-color: black;
-    width: 100%;
+    width: 80%;
     height: 2px;
     transition: transform 0.3s ease-in-out;
 }
