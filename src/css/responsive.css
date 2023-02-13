@@ -36,7 +36,7 @@
     }
 
     .menu li{
-        padding:1rem 1rem;
+        padding:1rem 1.2rem;
     }
 }
 
@@ -74,7 +74,7 @@
         align-items: center;
         text-align: center;
     }
-    
+
     .servicos{
         grid-template-rows:repeat(2,1fr);
         grid-template-columns: 1fr;
