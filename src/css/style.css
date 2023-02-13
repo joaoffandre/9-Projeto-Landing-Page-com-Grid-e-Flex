@@ -88,9 +88,9 @@ html{
     animation: setinha 0.8s infinite alternate ease-in-out;
 }
 
-@-webkit-keyframes setinha{
-    0% {-webkit-transform: translateY(0); opacity: 0.4;}
-    100% {-webkit-transform: translateY(2rem); opacity: 0.8;}
+@keyframes setinha{
+    0% {transform: translateY(0); opacity: 0.4;}
+    100% {transform: translateY(2rem); opacity: 0.8;}
 }
 
 .painel .chamada-lemons{
