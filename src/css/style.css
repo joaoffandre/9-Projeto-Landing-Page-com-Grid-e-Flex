@@ -150,11 +150,11 @@ html{
 }
 
 .sobre .imagem1{
-    background:url(../images/bridge.jpg) center no-repeat;
+    background:url(../images/bridge.jpg) center/cover no-repeat;
 }
 
 .sobre .imagem2{
-    background: url(../images/sky.jpg) center no-repeat;
+    background: url(../images/sky.jpg) center/cover no-repeat;
 }
 
 .servicos{
